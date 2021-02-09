@@ -10,15 +10,12 @@ class Person
   #   person.partner = self
   # end
 
-  # def get_married(person)
-  #   self.partner = person
-  #   if person.class != Person
-  #     raise PartnerError
-  #   else
-  #     person.partner = self
-  #   end
-  # end
 
+# Need to tell our program to raise our brand new PartnerError when the 
+# argument passed into the #get_married method is not an instance of the Person class. 
+# We can do that with the raise keyword. 
+
+  
 #   The basic pattern of error rescuing is as follows:
 
 # begin
